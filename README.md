@@ -1,5 +1,5 @@
 # web-testing
-experiments with testing web sites
+experiments with testing web sites [![Build Status](https://travis-ci.org/pkruhlei/web-testing.svg?branch=master)](https://travis-ci.org/pkruhlei/web-testing)
 #How I approached it
 For long time I wanted to try again web atutomation, and finally it happens :)
 
