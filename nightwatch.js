@@ -1,8 +1,8 @@
 // nightwatch.js
+const TRAVIS_JOB_NUMBER = process.env.TRAVIS_JOB_NUMBER;
 module.exports = {
 	src_folders: ['test/TestCases/'],
 	page_objects_path: "./tests/PageObjects",
-	const TRAVIS_JOB_NUMBER = process.env.TRAVIS_JOB_NUMBER;
 	test_settings: {
 		default: {
 			launch_url: 'www.funda.nl',

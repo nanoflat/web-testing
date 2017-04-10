@@ -1,3 +1,6 @@
+language: node_js
+node_js:
+  - "7"
 addons:
   sauce_connect:
     username: "nanoflat"
@@ -8,4 +11,4 @@ install:
 - npm install -g nightwatch
 
 script:
-  - nightwatch tests/TestCases/Smoke\ test/UberSmoke.js
+- nightwatch --config nightwatch.js tests/TestCases/Smoke\ test/UberSmoke.js
