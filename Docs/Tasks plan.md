@@ -3,11 +3,11 @@
 2. [x] Try website go get familiar with product, 10min
 3. [x] Sheck possible way to automate it: Selenium web driver, PageObject, python or js, nightwatch,? 20min
 4. [x] write map of automaton 30min
-    1. [ ] Pages: Search, Search results (for each type)
-    2. [ ] Setup and tear down
-    3. [ ] Write positive tests checklist
-    4. [ ] Write negative tests checklist
-5. [ ] Setup automation environment and tools, document it 15min
+    1. [x] Pages: Search, Search results (for each type)
+    2. [x] Setup and tear down
+    3. [x] Write positive tests checklist
+    4. [x] Write negative tests checklist
+5. [x] Setup automation environment and tools, document it 15min
  Create private git repo with test code, think about sctucture (master + Experimental branches) 20min
 6. [ ] Write tests and debug them 2h
 7. [ ] prepare infrastructure to run tests (Jenkins, headless browser) 1h

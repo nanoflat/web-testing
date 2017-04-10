@@ -10,10 +10,10 @@ module.exports = {
 
     search.navigate()
       .assert.title('Zoek huizen en appartementen te koop in Nederland [funda]');
-    search
-    .section.searchComponent
-    .section.searchField
-    .click('@search');
+    // search
+    // .section.searchComponent
+    // .section.searchField
+    // .click('@search');
       // .assert.visible('@searchBar')
       // .setValue('@searchBar', 'nightwatch')
       // .click('@submit');

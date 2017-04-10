@@ -40,3 +40,10 @@ easiest way by npm: `npm install chromedriver`
 3. [Babel synax for JS](https://packagecontrol.io/packages/Babel)
 4. [JSFormat](https://packagecontrol.io/packages/JsFormat)
 5. [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements)
+
+#Setup CI:
+1. Get Travis CI integrated [install travis-cli: gem install travis](https://docs.travis-ci.com/user/encryption-keys/)
+2. Get Sauselabs, install sause-connect CLI `brew install sauce-connect`
+3. [Setup Sauselabs with Travis CI](https://docs.travis-ci.com/user/sauce-connect/)
+4. [Setup Nightwatch to work with CI](https://medium.com/@mikaelberg/zero-to-hero-with-end-to-end-tests-using-nightwatch-saucelabs-and-travis-e932c8deb695)
+

@@ -3,3 +3,9 @@ addons:
     username: "nanoflat"
   jwt:
     secure: "PjdwdonkWiwbKHX23qOysuFnbdn74Mgu7wGExvAz5E3qpTp5A2o0YQRHX8HImmTwXDLhIk+xBFJZST0zqY7jkoOZdexxm96du7B1Y+fmXCJghiuiXkZ1PWCkcMxVM2kU0rWM03+FkYxfLZ8xQGgSJ/O5lpc6veEWzqM8cg4Wulkmv3cnCSsY+SfNfCNGhNKjU9nwdQMO1/7EJ+dnEyaK/aPash+LCtg7MIgqRXr5vRjv2Bx4WaVH2ViNo4S4cRXiGKB1e0F7kCjsS9EsL7sEXjlf2Qnm/naLhjJKVFeVujBF7xfFxacOBzC2qeViulxbjQfyNbSkhZCe3ZXS/cOScEjDzrVDo4MQdO8//s0g/Ihjsddhzkxi+L+yoYTEi81VzOb7UbAZ4K7OK79by7InUgCEBHK/3WA5lL33qgc/Aj9Iv+FtUuEADmgI/pJrTNtgyFJO7OJkbH1C5Tsy1sUfrS6fUfaUhd2zQrWKppkMcOzsg3dy7C5V2QHYaa5IqLwz6+RaDRwzEk/ywN93+3IFQW+BoVNzYSoic6Zh4j/dXBI9GrmXP0KXv+1MNmqLMsEKeyz0FVNbiAoNDCcKn9n9ZrxbjhqN9yNkSzLyHXszJKWHGL90QC1oVHyJq5mbO5vnERcnTIayj0ie5oDK6mNZ0r2p7I+ACU7F4p237LtwEtc="
+
+install: 
+- npm install -g nightwatch
+
+script:
+  - nightwatch tests/TestCases/Smoke\ test/UberSmoke.js
