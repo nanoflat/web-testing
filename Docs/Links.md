@@ -6,4 +6,4 @@
 5. [Setup git email addresses for single repo](https://help.github.com/articles/setting-your-email-in-git/)
 6. [Setup SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 7. [PageObjects](https://martinfowler.com/bliki/PageObject.html)
-8. 
+8. [Mocha js assertions and promises](https://alisdair.mcdiarmid.org/simple-nodejs-tests-with-assert-and-mocha/)

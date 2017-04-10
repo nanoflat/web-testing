@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="demo_test"
+    errors="1" failures="1" hostname="" id="" package="demo_test" skipped="0"
+    tests="1" time="7.844" timestamp="Sat, 08 Apr 2017 18:13:02 GMT">
+  
+    <testcase name="Demo test Funda" classname="demo_test" time="7.844" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;autocomplete&gt; is visible. Element could not be located.">    at Object.Demo test Funda (/Users/pkruhlei/git_tree/personal/web-testing/tests/demo_test.js:7:15)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</failure>
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;autocomplete&quot; using: css selector
+    at F.command (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/core/queue.js:97:8)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

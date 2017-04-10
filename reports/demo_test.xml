@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="demo_test"
+    errors="1" failures="0" hostname="" id="" package="demo_test" skipped="0"
+    tests="1" time="0.005000" timestamp="Sat, 08 Apr 2017 18:10:39 GMT">
+  
+    <testcase name="Demo test Funda" classname="demo_test" time="0.005000" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Demo Test / Demo test Funda]:
+
+  TypeError: client.url(...).waitForElementVisible(...).assert.title.containsText is not a function
+    at Object.Demo test Funda (/Users/pkruhlei/git_tree/personal/web-testing/tests/demo_test.js:6:21)
+    at Module.call (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/pkruhlei/git_tree/personal/web-testing/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/q/q.js:796:13)
+    at /Users/pkruhlei/git_tree/personal/web-testing/node_modules/q/q.js:556:49
+    at runSingle (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/q/q.js:137:13)
+    at flush (/Users/pkruhlei/git_tree/personal/web-testing/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

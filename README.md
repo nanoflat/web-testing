@@ -8,4 +8,6 @@ For long time I wanted to try again web atutomation, and finally it happens :)
 3. Gradually I extended check-list with more detailed checks (edge cases, negative tests)
 4. Finally I created high-level test scenarios, which will be UberSmoke, Smoke and Regression tests.
 5. I did quick research and selected tool, language and framework for future tests. [Notes on reasoning for selection](Docs/Selection of tools.md)
-6. Than I setup environment for development 
+6. Than I setup [environment for development](Docs/Environment setup.md) 
+7. Than I setup [tests framework ](Docs/Framework setup.md)
+8. 
